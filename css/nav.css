@@ -205,7 +205,6 @@ Navigation
     background: transparent;
     padding: .6em 1em;
     border-top: none;
-    color: #030d18;
   }
 }
 
@@ -217,7 +216,7 @@ Intro
 #cd-intro {
   position: relative;
   height: 300px;
-  background: url(../img/intro-background.jpg) no-repeat center center;
+  background: url(../img/mainHero.jpg) no-repeat center center;
   background-size: cover;
   z-index: 2;
 }
@@ -229,11 +228,13 @@ Intro
   padding-top: 120px;
 }
 #cd-intro h1 {
-  font-size: 24px;
+  font-size: 82px;
   font-size: 1.5rem;
   font-weight: 300;
-  color: #030d18;
+  color: white;
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  position: relative;
+  bottom: 150px;
 }
 @media only screen and (min-width: 768px) {
   #cd-intro {
@@ -249,12 +250,17 @@ Intro
 }
 @media only screen and (min-width: 1170px) {
   #cd-intro {
-    height: 600px;
+    height: 815px;
   }
   #cd-intro #cd-intro-tagline {
     padding-top: 250px;
   }
+  #cd-intro h1 {
+    font-size: 32px;
+    font-size: 5rem;
+  }
 }
+
 
 .cd-btn {
   display: inline-block;
@@ -383,7 +389,7 @@ Secondary Fixed Navigation
     position: relative;
     text-align: center;
     display: block;
-    padding: 58px 40px 0 40px;
+    padding: 38px 100px 0 40px;
     border-bottom: none;
     -webkit-transition: padding 0.2s;
     -moz-transition: padding 0.2s;
@@ -448,7 +454,7 @@ Secondary Fixed Navigation
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
   }
   .cd-secondary-nav.animate-children li a {
-    padding: 26px 30px 0 30px;
+    padding: 7px 50px 0 30px;
   }
   .cd-secondary-nav.animate-children li a span {
     opacity: 0;
